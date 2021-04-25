@@ -1,0 +1,22 @@
+{
+  "name": "express_docker",
+  "version": "1.0.0",
+  "description": "a test project for Docker and express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devincowan/docker_express.git"
+  },
+  "author": "devin cowan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devincowan/docker_express/issues"
+  },
+  "homepage": "https://github.com/devincowan/docker_express#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
