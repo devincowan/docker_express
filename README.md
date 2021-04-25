@@ -65,7 +65,6 @@ So if you didn't know Docker, you could use VirtualBox or similar to get a VM an
 
 With docker you could do
 ```
-docker run \
--ti debian bash
+docker run -ti debian bash
 ```
-This pulls the [latest debian image](https://hub.docker.com/_/debian/) from docker hub and "enters into it" by opening a bash shell. Boom. You have a debian "machine" that you can use to test the mount. SIMPLE.
+This pulls the [latest debian image](https://hub.docker.com/_/debian/) from docker hub (unless you already have the image locally) and "enters into it" by opening a bash shell. Boom. You have a debian "machine" that you can use to test things. SIMPLE.
